@@ -1,0 +1,24 @@
+public class Regnemaskine {
+    public double AddTo(double a, double b){
+        double result = a+b;
+        return result;
+    }
+    public double SubtractFrom(double a, double b){
+        double result = a-b;
+        return result;
+    }
+    public double Multiply(double a, double b){
+        double result = a*b;
+        return result;
+    }
+    public Object Devide(double a, double b){
+        Object[] result = new Object[2];
+        result[0] = "Can't devide by 0";
+        if(a == 0 || b == 0){
+            return result[0];
+        }
+        result[1] = a/b;
+        return result[1];
+    }
+%Dao
+}
