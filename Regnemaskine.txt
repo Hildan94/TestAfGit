@@ -20,5 +20,5 @@ public class Regnemaskine {
         result[1] = a/b;
         return result[1];
     }
-%Dao
+System.out.println("Hello World");
 }
